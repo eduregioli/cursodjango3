@@ -1,0 +1,19 @@
+ativar virtualenv :
+cd projeto
+cd venv 
+cd scripts
+activate
+
+criar projeto
+django-admin startproject blog
+
+rodar o projeto
+python manage.py runserver
+
+parar o servidor
+cntl + cd
+
+
+
+Para gerar as tabelas  ==>  python manage.py migrate
+criar superusuario no banco ==> python manage.py createsuperuser
